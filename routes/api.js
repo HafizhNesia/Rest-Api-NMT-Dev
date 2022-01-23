@@ -6,7 +6,7 @@ var db = require(__path + '/database/db');
 try {
 var kuhong = db.get('ojan'); // jan diubah
 } catch (e) {
-	console.log('WELCOME TO ZEROYT7 API!') // boleh diubah
+	console.log('WELCOME TO FIZXDEV API!') // boleh diubah
 }
 
 var creatorList = ['Zero YT7']; // Nama Lu Ngab
@@ -174,7 +174,7 @@ loghandler = {
         status: false,
         creator: `${creator}`,
         code: 406,
-        message: `Apikey tidak ditemukan! Silahkan kontak Owner untuk dapatkan Apikey wa.me/6285157740529`
+        message: `Apikey tidak ditemukan! Silahkan kontak Owner untuk dapatkan Apikey wa.me/6285741056111`
     },
     invalidLink: {
         status: false,
@@ -235,7 +235,7 @@ var invalidKey = __path + '/views/invalidKey.html' // Apikey Invalid
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------kuhong-api-storage'+'ZeroYT7';
+        var randomTextNumber = random+randomlagi+'---------kuhong-api-storage'+'FizxDev';
 
 
 router.get('/cekapikey', async (req, res, next) => {
